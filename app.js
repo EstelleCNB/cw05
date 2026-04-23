@@ -17,9 +17,11 @@ class App extends Component {
     render() {
         return (
             <div className="App">
+                <div className="task-card">
                 <HelloWorld />
                 <Counter />
                 <FilteredList items={produce} />
+                 </div>
             </div>
         );
     }

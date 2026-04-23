@@ -1,0 +1,18 @@
+:root {
+    --card-bg: #ffffff;
+    --card-radius: 14px;
+    --space-md: 20px;        
+    --title-color: #0f172a;
+    --title-size: 1.7rem;    
+  }
+  
+  .task-card {
+    background: var(--card-bg);
+    border-radius: var(--card-radius);
+    padding: var(--space-md);  
+  }
+  
+  .task-card h3 {
+    color: var(--title-color);
+    font-size: var(--title-size);  
+  }
